@@ -5,10 +5,11 @@
 #include <ESP8266WiFi.h>
 #include <BlynkSimpleEsp8266.h>
 
-#define BLYNK_AUTH_TOKEN "Iy-W8eTvWX3S8UP_HNtUzKbOPt8x8UA3" // Enter your Blynk auth token
+#define BLYNK_AUTH_TOKEN "" // Enter your Blynk auth token
 char auth[] = BLYNK_AUTH_TOKEN;
-char ssid[] = "Redmi Note 12 5G"; // Enter your Wi-Fi SSID
-char pass[] = "ramanath@123";     // Enter your Wi-Fi password
+//use 2.4 Hz wifi only as esp8266 doesn't support 5 Hz wifi signals
+char ssid[] = ""; // Enter your Wi-Fi SSID
+char pass[] = "";     // Enter your Wi-Fi password
 
 #define RED_PIN D0
 #define GREEN_PIN D2
